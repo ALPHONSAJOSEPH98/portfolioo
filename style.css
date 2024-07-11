@@ -1,0 +1,66 @@
+p{ font-family: "Source Serif 4", serif;}
+h4,h3,h2{font-family: "Exo 2", sans-serif;}
+h1{font-family: "Ubuntu Mono", monospace;}
+.relative{border-radius: 20px;}
+.relative:hover{box-shadow: 2px 3px 4px ;}
+
+
+.footer {
+    background-color: #333; /* Dark grey background for the footer */
+    color: white; /* White text color for the footer */
+    padding: 50px 0;
+    text-align: left;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    flex-wrap: wrap;
+}
+
+.footer-section {
+    flex: 1;
+    margin: 20px;
+}
+
+.footer-section h2 {
+    margin-bottom: 15px;
+    font-size: 1.5em;
+    color: #f2f2f2; /* Light grey color for headings */
+}
+
+.footer-section p, .footer-section ul, .footer-section li, .footer-section a {
+    margin: 10px 0;
+    font-size: 1em;
+    color: #ccc; /* Medium grey color for text */
+    text-decoration: none;
+}
+
+.footer-section ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-section ul li {
+    margin-bottom: 10px;
+}
+
+.footer-section a {
+    color: #ccc; /* Medium grey color for links */
+    transition: color 0.3s;
+}
+
+.footer-section a:hover {
+    color: white; /* White color on hover for links */
+    text-decoration: underline;
+}
+
+.footer-bottom {
+    background-color: #222; /* Dark grey background for the bottom section */
+    color: #ccc; /* Light grey color for text in the bottom section */
+    padding: 20px 0;
+    text-align: center;
+}
+#div2>a{color:white ; font-size: xx-large; padding: 25px; }
+
